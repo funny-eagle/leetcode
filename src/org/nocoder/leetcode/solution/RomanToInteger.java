@@ -53,7 +53,7 @@ public class RomanToInteger {
         if (s == null || s.length() == 0) {
             return -1;
         }
-        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+        HashMap<Character, Integer> map = new HashMap<>();
         map.put('I', 1);
         map.put('V', 5);
         map.put('X', 10);
