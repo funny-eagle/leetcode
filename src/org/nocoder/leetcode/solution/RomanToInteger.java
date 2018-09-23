@@ -49,11 +49,11 @@ import java.util.HashMap;
  * @date 18/9/9.
  */
 public class RomanToInteger {
-    public int romanToInt(String s) {
+    public static int romanToInt(String s) {
         if (s == null || s.length() == 0) {
             return -1;
         }
-        HashMap<Character, Integer> map = new HashMap<>();
+        HashMap<Character, Integer> map = new HashMap<>(7);
         map.put('I', 1);
         map.put('V', 5);
         map.put('X', 10);
@@ -61,7 +61,9 @@ public class RomanToInteger {
         map.put('C', 100);
         map.put('D', 500);
         map.put('M', 1000);
-        if (s.length() == 1) return map.get(s.charAt(0));
+        if (s.length() == 1) {
+            return map.get(s.charAt(0));
+        }
         int result = 0;
         for (int i = 1; i < s.length(); i++) {
             if (map.get(s.charAt(i - 1)) >= map.get(s.charAt(i))) {
@@ -73,5 +75,9 @@ public class RomanToInteger {
         }
         result += map.get(s.charAt(s.length() - 1));
         return result;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(romanToInt("XVI"));
     }
 }
