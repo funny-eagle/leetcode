@@ -21,11 +21,18 @@ package org.nocoder.leetcode.solution;
  * @date 2018-12-06
  */
 public class SingleNumber {
-    public int singleNumber(int[] nums) {
-        return 0;
+    public static int singleNumber(int[] nums) {
+        int result = 0;
+        for(int i : nums) {
+            result ^= i;
+        }
+        return result;
     }
 
     public static void main(String[] args) {
-
+        int[] arr1 = new int[]{2,2,1};
+        int[] arr2 = new int[]{4,1,2,1,2};
+        System.out.println(singleNumber(arr1));
+        System.out.println(singleNumber(arr2));
     }
 }
