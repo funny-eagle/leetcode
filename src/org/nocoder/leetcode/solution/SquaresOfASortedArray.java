@@ -1,7 +1,5 @@
 package org.nocoder.leetcode.solution;
 
-import java.util.List;
-
 /**
  * 977. Squares of a Sorted Array
  * <p>
