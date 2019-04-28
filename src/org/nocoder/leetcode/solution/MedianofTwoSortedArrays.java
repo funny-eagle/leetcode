@@ -51,13 +51,13 @@ public class MedianofTwoSortedArrays {
         int len = a.length;
         if (len == 1) {
             return a[0];
-        }else if (len == 2){
+        } else if (len == 2) {
             return (a[0] + a[1]) / 2.0;
         }
 
         if (len % 2 == 0) {
             // 数组a的长度为偶数时，取中间的两个值，数组下标取 length/2 - 1, length/2
-            result = (a[(len / 2 -1)] + (a[len / 2])) / 2.0;
+            result = (a[(len / 2 - 1)] + (a[len / 2])) / 2.0;
         } else {
             // 数组a的长度为基数时，取最中间的一个值返回，数组下标取 length%2
             result = a[Math.round(len / 2)];
@@ -67,7 +67,7 @@ public class MedianofTwoSortedArrays {
 
     public static void main(String[] args) {
         int[] nums1 = new int[]{};
-        int[] nums2 = new int[]{1,2,3,4,5};
+        int[] nums2 = new int[]{1, 2, 3, 4, 5};
         double result = findMedianSortedArrays(nums1, nums2);
         System.out.println(result);
     }

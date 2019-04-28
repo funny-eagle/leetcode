@@ -29,12 +29,12 @@ public class TwoSum {
         }
         throw new IllegalArgumentException("No solution!");
     }
-    
-    public static int[] twoSum2(int[] nums, int target){
+
+    public static int[] twoSum2(int[] nums, int target) {
         Map<Integer, Integer> resultMap = new HashMap<>(16);
         for (int i = 0; i < nums.length; i++) {
             int result = target - nums[i];
-            if(resultMap.containsKey(result)){
+            if (resultMap.containsKey(result)) {
                 return new int[]{resultMap.get(result), i};
             }
             resultMap.put(nums[i], i);
@@ -42,17 +42,17 @@ public class TwoSum {
         throw new IllegalArgumentException("No solution!");
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int[] nums = new int[]{2, 7, 11, 15};
         int target = 9;
 
         int[] result = twoSum2(nums, target);
-        System.out.println(result[0] + ","+ result[1]);
+        System.out.println(result[0] + "," + result[1]);
 
         int[] nums1 = new int[]{1, 2, 9, 9};
         int target1 = 18;
         int[] result1 = twoSum2(nums1, target1);
-        System.out.println(result1[0] + ","+ result1[1]);
+        System.out.println(result1[0] + "," + result1[1]);
     }
 }
 

@@ -47,21 +47,22 @@ public class SearchInsertPosition {
      * 使用二分法，查找目标数的位置，
      * 如果在数组中找到了目标数，则返回目标数的下标；
      * 如果找不到目标数，则返回最后一次循环结束后的开始位置(即 start 的值)
+     *
      * @param nums
      * @param target
      * @return
      */
     public static int searchInsert(int[] nums, int target) {
         int start = 0;
-        int end = nums.length-1;
-        while(start <= end){
-            int middle = (start + end ) / 2;
-            System.out.println("middle: "+middle);
-            if(nums[middle] > target){
+        int end = nums.length - 1;
+        while (start <= end) {
+            int middle = (start + end) / 2;
+            System.out.println("middle: " + middle);
+            if (nums[middle] > target) {
                 end = middle - 1;
-            }else if(nums[middle] < target){
+            } else if (nums[middle] < target) {
                 start = middle + 1;
-            }else{
+            } else {
                 return middle;
             }
         }

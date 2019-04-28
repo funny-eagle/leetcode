@@ -52,7 +52,7 @@ public class PalindromeNumber {
         return true;
     }
 
-    public static void main(String [] args){
+    public static void main(String[] args) {
         System.out.println(PalindromeNumber.isPalindrome(121));
         System.out.println(PalindromeNumber.isPalindrome(-121));
         System.out.println(PalindromeNumber.isPalindrome(10));

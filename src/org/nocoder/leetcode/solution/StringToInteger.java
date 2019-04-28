@@ -71,7 +71,7 @@ public class StringToInteger {
         int i = 0;
         char flag = '+';
         // 判断正负
-        if (str.charAt(i) == '-'){
+        if (str.charAt(i) == '-') {
             flag = '-';
             i++;
         } else if (str.charAt(i) == '+') {

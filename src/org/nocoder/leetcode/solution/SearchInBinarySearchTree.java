@@ -1,5 +1,7 @@
 package org.nocoder.leetcode.solution;
 
+import org.nocoder.leetcode.solution.common.TreeNode;
+
 /**
  * 700. Search in a Binary Search Tree
  * <p>
@@ -46,33 +48,16 @@ public class SearchInBinarySearchTree {
 
     public static TreeNode searchBST(TreeNode root, int val) {
         TreeNode current = root;
-        while(current != null){
-            if(val < current.val){
+        while (current != null) {
+            if (val < current.val) {
                 current = current.left;
-            }else if (val > current.val){
+            } else if (val > current.val) {
                 current = current.right;
-            }else{
+            } else {
                 current.print();
                 return current;
             }
         }
         return null;
-    }
-}
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-
-    public TreeNode(int val) {
-        this.val = val;
-    }
-
-    public void print() {
-        System.out.println("val: " + this.val);
-        System.out.println("left: " + this.left.val);
-        System.out.println("right: " + this.right.val);
     }
 }
