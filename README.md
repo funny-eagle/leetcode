@@ -1,40 +1,40 @@
 # leetcode
 LeetCode problems solutions
 
--AddTwoNumbers
--DeleteColumnsToMakeSorted
--FlippingAnImage
--ImplementStrStr
--IntegerToRoman
--JewelsAndStones
--LargestPerimeterTriangle
--LongestCommonPrefix
--LongestPalindromicSubstring
--LongestSubstringWithoutRepeatingCharacters
--MaximumBinaryTree
--MedianofTwoSortedArrays
--MergeTwoBinaryTrees
--MergeTwoSortedLists
--MiddleOfTheLinkedList
--NRepeatedElementinSize2NArray
--NumbersOfRecentCalls
--PalindromeNumber
--RemoveDuplicatesFromSortedArray
--RemoveElement
--ReorderLogFiles
--ReverseInteger
--ReverseString
--RomanToInteger
--SearchInBinarySearchTree
--SearchInsertPosition
--SingleNumber
--SortArrayByParity
--SquaresOfASortedArray
--StringToInteger
--ToLowerCase
--TwoSum
--UniqueEmailAddress
--UniqueMorseCodeWords
--ValidParentheses
--WordBreak
--ZigZagConversion
+- AddTwoNumbers
+- DeleteColumnsToMakeSorted
+- FlippingAnImage
+- ImplementStrStr
+- IntegerToRoman
+- JewelsAndStones
+- LargestPerimeterTriangle
+- LongestCommonPrefix
+- LongestPalindromicSubstring
+- LongestSubstringWithoutRepeatingCharacters
+- MaximumBinaryTree
+- MedianofTwoSortedArrays
+- MergeTwoBinaryTrees
+- MergeTwoSortedLists
+- MiddleOfTheLinkedList
+- NRepeatedElementinSize2NArray
+- NumbersOfRecentCalls
+- PalindromeNumber
+- RemoveDuplicatesFromSortedArray
+- RemoveElement
+- ReorderLogFiles
+- ReverseInteger
+- ReverseString
+- RomanToInteger
+- SearchInBinarySearchTree
+- SearchInsertPosition
+- SingleNumber
+- SortArrayByParity
+- SquaresOfASortedArray
+- StringToInteger
+- ToLowerCase
+- TwoSum
+- UniqueEmailAddress
+- UniqueMorseCodeWords
+- ValidParentheses
+- WordBreak
+- ZigZagConversion
