@@ -1,5 +1,7 @@
 package org.nocoder.leetcode.solution;
 
+import org.nocoder.leetcode.solution.common.ListNode;
+
 /**
  * 876. Middle of the Linked List
  * <p>

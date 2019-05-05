@@ -1,5 +1,7 @@
 package org.nocoder.leetcode.solution;
 
+import org.nocoder.leetcode.solution.common.ListNode;
+
 /**
  * 1.Add Two Numbers
  * <p>
