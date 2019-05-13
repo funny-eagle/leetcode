@@ -54,7 +54,6 @@ public class SearchInBinarySearchTree {
             } else if (val > current.val) {
                 current = current.right;
             } else {
-                current.print();
                 return current;
             }
         }

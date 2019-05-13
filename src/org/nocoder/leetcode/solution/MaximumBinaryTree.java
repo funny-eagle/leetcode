@@ -33,7 +33,6 @@ public class MaximumBinaryTree {
     public static void main(String[] args) {
         int[] arr = new int[]{3, 2, 1, 6, 0, 5};
         TreeNode treeNode = constructMaximumBinaryTree(arr);
-        treeNode.print();
     }
 
     public static TreeNode constructMaximumBinaryTree(int[] nums) {
