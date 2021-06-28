@@ -11,15 +11,4 @@ public class ListNode {
     public ListNode(int x) {
         val = x;
     }
-
-    public static void print(ListNode listNode) {
-        while (listNode != null) {
-            System.out.print(listNode.val);
-            if (listNode.next != null) {
-                System.out.print(" -> ");
-            }
-            listNode = listNode.next;
-        }
-        System.out.println();
-    }
 }

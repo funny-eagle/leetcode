@@ -23,6 +23,21 @@ import org.nocoder.leetcode.solution.common.ListNode;
  * @date 18/7/13.
  */
 public class AddTwoNumbers {
+
+    public static void main(String[] args) {
+        ListNode l1 = new ListNode(2);
+        l1.next = new ListNode(4);
+        l1.next.next = new ListNode(3);
+
+        ListNode l2 = new ListNode(5);
+        l2.next = new ListNode(6);
+        l2.next.next = new ListNode(4);
+
+        print(l1);
+        print(l2);
+        print(AddTwoNumbers.addTwoNumbers(l1, l2));
+    }
+
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode listNode = new ListNode(0);
         ListNode cur = listNode;
@@ -45,19 +60,16 @@ public class AddTwoNumbers {
         return listNode.next;
     }
 
-    public static void main(String[] args) {
 
-        ListNode l1 = new ListNode(2);
-        l1.next = new ListNode(4);
-        l1.next.next = new ListNode(3);
-
-        ListNode l2 = new ListNode(5);
-        l2.next = new ListNode(6);
-        l2.next.next = new ListNode(4);
-
-        ListNode.print(l1);
-        ListNode.print(l2);
-        ListNode.print(AddTwoNumbers.addTwoNumbers(l1, l2));
+    public static void print(ListNode listNode) {
+        while (listNode != null) {
+            System.out.print(listNode.val);
+            if (listNode.next != null) {
+                System.out.print(" -> ");
+            }
+            listNode = listNode.next;
+        }
+        System.out.println();
     }
 
 }
