@@ -38,3 +38,4 @@ LeetCode problems solutions
 - ValidParentheses
 - WordBreak
 - ZigZagConversion
+- ContainsDuplicate
