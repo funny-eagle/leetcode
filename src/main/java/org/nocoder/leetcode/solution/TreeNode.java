@@ -1,4 +1,4 @@
-package org.nocoder.leetcode.solution.common;
+package org.nocoder.leetcode.solution;
 
 public class TreeNode {
     public int val;

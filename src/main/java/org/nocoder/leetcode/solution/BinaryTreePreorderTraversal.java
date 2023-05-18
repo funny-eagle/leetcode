@@ -1,6 +1,5 @@
 package org.nocoder.leetcode.solution;
 
-import org.nocoder.leetcode.solution.common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

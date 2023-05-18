@@ -1,6 +1,5 @@
 package org.nocoder.leetcode.solution;
 
-import org.nocoder.leetcode.solution.common.TreeNode;
 
 /**
  * 700. Search in a Binary Search Tree

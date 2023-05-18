@@ -1,6 +1,5 @@
 package org.nocoder.leetcode.solution;
 
-import org.nocoder.leetcode.solution.common.TreeNode;
 
 /**
  * 563. Binary Tree Tilt

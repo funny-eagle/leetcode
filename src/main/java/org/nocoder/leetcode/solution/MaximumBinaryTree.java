@@ -1,6 +1,5 @@
 package org.nocoder.leetcode.solution;
 
-import org.nocoder.leetcode.solution.common.TreeNode;
 
 /**
  * 654.Maximum Binary Tree
