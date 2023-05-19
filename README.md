@@ -39,3 +39,5 @@ LeetCode problems solutions
 - WordBreak
 - ZigZagConversion
 - ContainsDuplicate
+- [Plus One](https://leetcode.com/problems/plus-one/)
+- [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)
