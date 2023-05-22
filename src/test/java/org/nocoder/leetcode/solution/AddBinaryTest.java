@@ -1,4 +1,4 @@
-package com.nocoder.leetcode.solution;
+package org.nocoder.leetcode.solution;
 
 import org.junit.Test;
 import org.nocoder.leetcode.solution.AddBinary;
