@@ -1,7 +1,7 @@
 # leetcode
 LeetCode problems solutions
 
-- AddTwoNumbers
+- [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 - DeleteColumnsToMakeSorted
 - FlippingAnImage
 - ImplementStrStr
@@ -41,3 +41,4 @@ LeetCode problems solutions
 - ContainsDuplicate
 - [Plus One](https://leetcode.com/problems/plus-one/)
 - [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)
+- [Add Binary](https://leetcode.com/problems/add-binary/)
