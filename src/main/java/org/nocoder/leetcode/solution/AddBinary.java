@@ -1,7 +1,8 @@
 package org.nocoder.leetcode.solution;
 
 /**
- * AddBinary
+ *
+ * AddBinary https://leetcode.com/problems/add-binary/
  * <p>
  * Given two binary strings a and b, return their sum as a binary string.
  * <p>
