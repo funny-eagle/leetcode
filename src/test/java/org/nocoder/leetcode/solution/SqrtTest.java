@@ -2,6 +2,8 @@ package org.nocoder.leetcode.solution;
 
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 /**
  * Sqrt Tester.
  *
@@ -17,9 +19,9 @@ public class SqrtTest {
     @Test
     public void testMySqrt() throws Exception {
         Sqrt sqrt = new Sqrt();
-        System.out.println(sqrt.mySqrt(8));
-        System.out.println(sqrt.mySqrt(230));
-        System.out.println(sqrt.mySqrt(2147395600));
+        assertEquals(2, sqrt.mySqrt(8));
+        assertEquals(15, sqrt.mySqrt(230));
+        assertEquals(46340, sqrt.mySqrt(2147395600));
     }
 
 
