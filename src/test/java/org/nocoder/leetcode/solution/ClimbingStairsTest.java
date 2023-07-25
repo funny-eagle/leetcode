@@ -16,7 +16,8 @@ public class ClimbingStairsTest {
      */
     @Test
     public void testClimbStairs() throws Exception {
-
+        ClimbingStairs solution = new ClimbingStairs();
+        solution.climbStairs(7);
     }
 
 
